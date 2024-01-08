@@ -1,6 +1,6 @@
 package exceptionsample;
 
-public class ExceptionThrowSample throws LicenceException{
+public class ExceptionThrowSample {
 	
 	public void test(int age) {
 		
