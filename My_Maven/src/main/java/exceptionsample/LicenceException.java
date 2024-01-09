@@ -1,9 +1,9 @@
 package exceptionsample;
 
-public class LicenceException extends ExceptionClass {
+public class LicenceException extends Exception {
 	
 	public LicenceException(String s) {
-		super ();
+		super (s);
 	}
 
 }

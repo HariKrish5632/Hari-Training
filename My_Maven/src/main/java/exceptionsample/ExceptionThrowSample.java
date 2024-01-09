@@ -2,7 +2,7 @@ package exceptionsample;
 
 public class ExceptionThrowSample {
 	
-	public void test(int age) {
+	public void test(int age) throws LicenceException {
 		
 		if (age<18) {		
 			
@@ -13,7 +13,7 @@ public class ExceptionThrowSample {
 		}
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws LicenceException {
 		ExceptionThrowSample ob = new ExceptionThrowSample();
 		ob.test(15);
 
