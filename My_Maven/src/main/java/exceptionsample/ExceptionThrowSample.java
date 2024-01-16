@@ -13,9 +13,14 @@ public class ExceptionThrowSample {
 		}
 	}
 	
-	public static void main(String[] args) throws LicenceException {
+	public static void main(String[] args) {
 		ExceptionThrowSample ob = new ExceptionThrowSample();
-		ob.test(15);
+		try {
+			ob.test(15);
+		} catch (LicenceException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
 
